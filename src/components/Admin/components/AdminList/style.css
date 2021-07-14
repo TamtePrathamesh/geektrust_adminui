@@ -1,0 +1,22 @@
+@import '../../../../style/colors.css';
+
+table {
+  width: inherit;
+}
+
+input[type='checkbox'] {
+  width: 15px;
+  height: 15px;
+}
+
+.table thead tr:first-child {
+  border-top: hidden;
+}
+
+.table thead th {
+  border-bottom: 1px solid var(--grey_one);
+}
+
+.columnName {
+  letter-spacing: 2px;
+}

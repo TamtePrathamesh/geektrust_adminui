@@ -1,0 +1,23 @@
+@import '../../../../style/colors.css';
+
+.search {
+  width: 100%;
+  height: 40px;
+  border: 1px solid var(--grey_one);
+  border-radius: 4px;
+  padding-left: 10px;
+  letter-spacing: 2px;
+}
+
+.search:focus-visible {
+  border: 2px solid var(--grey_one);
+}
+
+@media screen and (max-width: 750px) {
+  .search {
+    width: 100%;
+    height: 40px;
+    border: 1px solid var(--grey_one);
+    border-radius: 4px;
+  }
+}

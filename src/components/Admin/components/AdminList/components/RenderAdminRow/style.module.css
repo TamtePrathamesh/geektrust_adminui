@@ -1,0 +1,15 @@
+@import '../../../../../../style/colors.css';
+
+.selectedRow {
+    background-color:var(--grey_three);
+}
+
+.rowEditAction {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+img {
+    cursor: pointer;
+}

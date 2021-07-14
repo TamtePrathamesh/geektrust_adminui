@@ -1,0 +1,140 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pagination should create no of pages as per pageCount 1`] = `
+<div>
+  <div
+    class="paginationContainer"
+  >
+    <div
+      class="pagination"
+      data-testid="leading"
+    >
+      <div
+        class="actionBtn"
+      >
+        <img
+          alt="cant display"
+          height="10px"
+          src=""
+          width="10px"
+        />
+      </div>
+      <div
+        class="actionBtn disableClick"
+        data-testid="previous"
+      >
+        <img
+          alt="cant display"
+          height="10px"
+          src=""
+          width="10px"
+        />
+      </div>
+      <div
+        class="contentOverflow"
+      >
+        <div>
+          <button
+            class="stepper active"
+            id="stepper"
+          >
+            1
+          </button>
+        </div>
+        <div>
+          <button
+            class="stepper "
+            id="stepper"
+          >
+            2
+          </button>
+        </div>
+      </div>
+      <div
+        class="actionBtn "
+        data-testid="next"
+      >
+        <img
+          alt="cant display"
+          height="10px"
+          src=""
+          width="10px"
+        />
+      </div>
+      <div
+        class="actionBtn"
+        data-testid="trailing"
+      >
+        <img
+          alt="cant display"
+          height="10px"
+          src=""
+          width="10px"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Pagination should match snapshot 1`] = `
+<div
+  className="paginationContainer"
+>
+  <div
+    className="pagination"
+    data-testid="leading"
+  >
+    <div
+      className="actionBtn"
+      onClick={[Function]}
+    >
+      <img
+        alt="cant display"
+        height="10px"
+        src=""
+        width="10px"
+      />
+    </div>
+    <div
+      className="actionBtn disableClick"
+      data-testid="previous"
+      onClick={[Function]}
+    >
+      <img
+        alt="cant display"
+        height="10px"
+        src=""
+        width="10px"
+      />
+    </div>
+    <div
+      className="contentOverflow"
+    />
+    <div
+      className="actionBtn disableClick"
+      data-testid="next"
+      onClick={[Function]}
+    >
+      <img
+        alt="cant display"
+        height="10px"
+        src=""
+        width="10px"
+      />
+    </div>
+    <div
+      className="actionBtn"
+      data-testid="trailing"
+      onClick={[Function]}
+    >
+      <img
+        alt="cant display"
+        height="10px"
+        src=""
+        width="10px"
+      />
+    </div>
+  </div>
+</div>
+`;

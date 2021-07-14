@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`VerticalGap should match snapshot 1`] = `
+<div
+  className="gap"
+  style={
+    Object {
+      "height": "0px",
+    }
+  }
+/>
+`;
+
+exports[`VerticalGap should match snapshot when given height 1`] = `
+<div
+  className="gap"
+  style={
+    Object {
+      "height": "15px",
+    }
+  }
+/>
+`;

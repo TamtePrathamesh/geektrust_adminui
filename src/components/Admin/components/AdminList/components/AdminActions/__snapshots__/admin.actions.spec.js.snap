@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AdminActions should match snapshot 1`] = `
+<div>
+  <div
+    class="actionItems"
+  >
+    <img
+      alt="cant display"
+      class="actionIcons"
+      data-testid="editRow"
+      src=""
+    />
+    <img
+      alt="cant display"
+      class="actionIcons"
+      data-testid="deleteRow"
+      src=""
+    />
+  </div>
+</div>
+`;

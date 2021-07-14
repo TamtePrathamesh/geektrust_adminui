@@ -1,0 +1,12 @@
+.actionItems {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 15px;
+}
+
+.actionIcons {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}

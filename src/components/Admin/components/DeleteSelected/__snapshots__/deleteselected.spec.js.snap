@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DeleteSelected should match snapshot 1`] = `
+<div>
+  <div
+    class="container"
+  >
+    <button
+      class="deleteSelected"
+      data-testid="deleteSelected"
+    >
+      Delete Selected
+    </button>
+  </div>
+</div>
+`;

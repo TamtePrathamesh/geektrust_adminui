@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RenderAdminRow should match snapshot 1`] = `
+<tbody>
+  <tr
+    class=""
+    data-testid="tr"
+  >
+    <td>
+      <input
+        data-testid="selectRow"
+        type="checkbox"
+      />
+    </td>
+    <td
+      class="columnName"
+    >
+      xyz
+    </td>
+    <td
+      class="columnName"
+    >
+      an@g.c
+    </td>
+    <td
+      class="columnName"
+    >
+      member
+    </td>
+    <td>
+      <div
+        class="actionItems"
+      >
+        <img
+          alt="cant display"
+          class="actionIcons"
+          data-testid="editRow"
+          src=""
+        />
+        <img
+          alt="cant display"
+          class="actionIcons"
+          data-testid="deleteRow"
+          src=""
+        />
+      </div>
+    </td>
+  </tr>
+</tbody>
+`;

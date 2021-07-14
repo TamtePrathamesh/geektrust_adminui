@@ -1,0 +1,56 @@
+@import '../../../style/colors.css';
+
+.paginationContainer {
+  width: fit-content;
+}
+
+.pagination {
+  width: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.actionBtn {
+  cursor: pointer;
+  color: var(--black);
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: var(--white);
+  border: 1px solid var(--blue_one);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: none;
+}
+
+.disableClick {
+  pointer-events: none;
+  opacity: 0.5;
+}
+
+.contentOverflow {
+  width: fit-content;
+  display: flex;
+  gap: 15px;
+}
+
+.contentOverflow .active {
+  background-color: var(--white);
+  border-color: var(--blue_one);
+  border: 1px solid var(--blue_one);
+  color: var(--blue_one);
+  box-shadow: none;
+}
+
+.stepper {
+  cursor: pointer;
+  color: var(--white);
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: var(--blue_one);
+  border: 0;
+}
